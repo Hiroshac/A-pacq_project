@@ -1,0 +1,25 @@
+.topbox {
+    background-color:darkolivegreen;
+    height: 150;  
+}
+
+.topbutton {
+    display: inline;
+    height:50;
+    width:500;
+    text-align: right;
+    float:right;
+    background-color: dimgrey; 
+}
+
+
+
+.bottombox {
+    background-color: deepskyblue;
+    height: 150;
+}
+
+.a {
+    display: inline;
+}
+
