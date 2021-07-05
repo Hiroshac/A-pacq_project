@@ -1,0 +1,45 @@
+.circle{
+	float:center;
+	height:300px;
+	width:225px;
+	position:relative;
+	border:5px outset red;
+	text-align:center;
+	overflow:hidden;
+	display:inline-block;
+}
+
+.ima{
+	height:400px;
+	width:400px;
+}
+
+.logo{
+	height:300px;
+	width:400px;
+	padding-left:90;
+}
+
+.info{
+	background-color:grey;
+    float:right;
+	height:1000px;
+    width:550px;
+	}
+
+.row::after{
+	content:"";
+	clear:both;
+	display:table;
+	float:left;
+}
+.img{
+	height:225px;
+	width:225px;
+	border-radius:50%;
+}
+
+.caption{
+	display:inline-block;
+	font-size:200px;
+}
